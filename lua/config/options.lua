@@ -5,4 +5,3 @@
 vim.opt.relativenumber = false
 vim.opt.number = true
 vim.opt.autochdir = true
-vim.opt.winbar = "%=%f %m"
