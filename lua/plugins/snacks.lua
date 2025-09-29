@@ -31,6 +31,13 @@ return {
           { section = "startup" },
         },
       },
+      picker = {
+        sources = {
+          files = {
+            hidden = true, -- also set `ignore` to `true` to view gitignored files
+          },
+        },
+      },
     },
     keys = {
       {
