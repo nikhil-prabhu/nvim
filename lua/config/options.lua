@@ -6,7 +6,7 @@ vim.opt.relativenumber = false
 vim.opt.number = true
 
 -- Fixes root detection issues with certain plugins or project types
-vim.opt.autochdir = false -- Ensure `false` to fix root detection issues
+vim.opt.autochdir = true -- Ensure `true` to fix "cwd" issues.
 vim.g.root_spec = {
   { ".git" }, -- 1. Force a search for the highest .git marker first (true project root, in most cases)
   "lsp", -- 2. Fallback to the LSP root only if no .git is found, or for nested searches
